@@ -1,0 +1,17 @@
+name: Stats
+main: Kagiamy\Stats\main
+version: 2.1.0
+api: [1.14.0, 2.0.0]
+    
+commands:
+    stats:
+        description: "Shows your stats."
+        usage: "/stats"
+        
+permissions:
+    stats.my:
+        default: true
+        description: "Allows you to get your stats."
+    stats.other:
+        default: true
+        description: "Allows you to get the stats of other players."
